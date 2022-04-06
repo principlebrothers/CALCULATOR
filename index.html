@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onscreen Calculator</title>
+    <link href="calculator.css" type="text/css" rel="stylesheet">
+    <script src="calculator.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1 id="head">CALCULATOR</h1>
+    </header>
+    <div class="calBody">
+        <div class="screen">
+            <h2 data-upper-display class="upperDisplay">0</h2>
+            <h1 data-lower-display class="lowerDisplay">0</h1>
+        </div>
+        <div class="buttonBody">
+            <div class="deleteButton">
+                <button data-all-clear class="clearAnswer">AC</button>
+                <button data-clear class="clearAll">Clear</button>
+                <button data-delete class="del">←</button>
+            </div>
+            <div class="operators">
+                <button data-operation>÷</button>
+                <button data-operation>x</button>
+                <button data-operation>+</button>
+                <button data-operation>−</button>
+                <button data-special-operation>%</button>
+                <button data-special-operation>√</button>
+            </div>
+            <div class="numButton">
+                <button data-number>7</button>
+                <button data-number>8</button>
+                <button data-number>9</button>
+                <button data-number>4</button>
+                <button data-number>5</button>
+                <button data-number>6</button>
+                <button data-number>1</button>
+                <button data-number>2</button>
+                <button data-number>3</button>
+                <button data-number>0</button>
+                <button data-number>.</button>
+                <button data-equals class="equals">=</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h3>Copyright &copy; Tech Trends 2022</h3>
+    </footer>
+</body>
+</html>
